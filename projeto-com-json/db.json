@@ -1,0 +1,22 @@
+{
+  "alunos": [
+    {
+      "nome": "gsdfgd",
+      "curso": "sdfgsd",
+      "num_inscricao": "2",
+      "id": 20
+    },
+    {
+      "nome": "Marineis",
+      "curso": "Informatica",
+      "num_inscricao": "1",
+      "id": 21
+    },
+    {
+      "nome": "Anne Shirley Cutberht",
+      "curso": "Letras",
+      "num_inscricao": "2355446",
+      "id": 22
+    }
+  ]
+}

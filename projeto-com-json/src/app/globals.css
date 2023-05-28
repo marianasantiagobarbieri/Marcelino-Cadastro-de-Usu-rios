@@ -1,0 +1,134 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 32px;
+    color: #0a090930;
+}
+
+/* div geral*/
+.LoginBox {
+  height: 100vh;
+  background: linear-gradient(120deg, #e75590, #00c2cb);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 450px;
+
+}
+
+.LoginBox2 {
+    height: 100vh;
+    background: linear-gradient(120deg, #e75590, #00c2cb);
+    text-align: center;
+    display: grid;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+
+  
+  }
+
+/* container branco do login*/
+.LoginContainer{
+   min-height: 400px;
+   width: 400px;
+   background-color: #FFF;
+   box-sizing: border-box;
+   padding: 32px;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: #0000;
+}
+
+.LoginContainer2{
+    background-color: #FFF;
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: auto auto auto;    
+    align-items: center;
+    box-shadow: #0000;
+ }
+
+.LoginForm{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginForm2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto; 
+    gap: 100px;
+  }
+
+/* input do cadastro*/
+.LoginInput{
+   height: 48px;
+   width: 100%;
+   box-sizing: border-box;
+   padding-left: 8px;
+   border: unset;
+   outline: none;
+}
+
+/*spam/ linha do input */
+.LoginSpam{
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #cfcfcf;
+    transition: .3s ease-in-out;
+}
+
+.LoginSpam::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    margin-bottom: 16px;  
+    background: linear-gradient(120deg, #e75590, #00c2cb);
+    transition: .3s ease-in-out;
+}
+
+.LoginInput:focus + .LoginSpam::after{
+   width: 100%;
+}
+
+.LoginBotaoCadastrar{
+   height: 48px;
+   width: 100%;
+   outline: none;
+   background: linear-gradient(120deg, #e75590, #00c2cb);
+   background-size: 200%;
+   margin-bottom: 32px;
+   color: #FFF;
+   font-size: 16px;
+   font-weight: bold;
+   border: unset;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: .5s ease-in-out;
+}
+
+/*animacao do botao*/
+.LoginBotaoCadastrar:hover{
+    background-position: right;
+}
+
+.LoginAhref{
+    font-size: 16px;
+    color: #949292;
+    text-decoration: none;
+}
